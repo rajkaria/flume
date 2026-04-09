@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { href: "/", label: "Overview", icon: "◈" },
+  { href: "/overview", label: "Overview", icon: "◈" },
   { href: "/tools", label: "Tools", icon: "⚙" },
   { href: "/audit", label: "Audit Log", icon: "☰" },
   { href: "/settlements", label: "Settlements", icon: "⟐" },

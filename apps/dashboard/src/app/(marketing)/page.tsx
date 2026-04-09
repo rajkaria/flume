@@ -9,6 +9,7 @@ export default function LandingPage() {
             <a href="#how" className="hover:text-white transition-colors">How it works</a>
             <a href="#packages" className="hover:text-white transition-colors">Packages</a>
             <a href="#pricing-strategies" className="hover:text-white transition-colors">Pricing</a>
+            <a href="/overview" className="hover:text-white transition-colors">Dashboard</a>
             <a href="https://github.com/rajkaria/flume" className="px-4 py-2 bg-violet-600 hover:bg-violet-500 text-white rounded-lg transition-colors">GitHub</a>
           </div>
         </div>
