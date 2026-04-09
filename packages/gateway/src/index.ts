@@ -32,3 +32,5 @@ export { PaymentGate, type PaymentValidator } from './PaymentGate.js';
 export { SpendingPolicy } from './SpendingPolicy.js';
 export { loadConfig, validateConfig, getToolConfig, FlumeConfigSchema } from './ConfigDSL.js';
 export { flumeMiddleware } from './middleware.js';
+export { DynamicPricing, type PriceContext } from './DynamicPricing.js';
+export { ProtocolBridge, InMemorySessionStore, type SessionStore } from './ProtocolBridge.js';
