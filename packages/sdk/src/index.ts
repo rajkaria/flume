@@ -15,6 +15,15 @@ export type {
   VercelAiToolDef,
 } from './types/index.js';
 
-// Implementation exports — Phase 5+
-// export { FlumeClient } from './FlumeClient.js';
-// export { FlumeAggregator } from './FlumeAggregator.js';
+export { FlumeClient } from './FlumeClient.js';
+export { FlumeAggregator } from './FlumeAggregator.js';
+export { FlumeMcpAdapter } from './adapters/mcp.js';
+export { createFlumeTool } from './adapters/vercel-ai.js';
+export {
+  FlumeError,
+  FlumeMaxPriceExceededError,
+  FlumeBudgetExhaustedError,
+  FlumePaymentRejectedError,
+  FlumeRelayUnreachableError,
+  FlumeToolUnavailableError,
+} from './errors.js';

@@ -46,6 +46,7 @@ export interface AggregatorConfig {
   readonly servers: readonly ServerConfig[];
   readonly strategy: RoutingStrategy;
   readonly budget: BudgetConfig;
+  readonly relayUrl: string;
   readonly walletAddress: string;
   readonly privateKey: string;
   readonly fallbackOnError?: boolean | undefined;
