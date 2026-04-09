@@ -28,3 +28,5 @@ export { NanopayVerifier, type CircleClient, type NanopayVerifierOptions } from 
 export { EarningsLedger, InMemoryLedgerStorage, type LedgerStorage } from './EarningsLedger.js';
 export { WalletManager, type CircleWalletClient } from './WalletManager.js';
 export { InMemoryNonceRegistry, RedisNonceRegistry } from './NonceRegistry.js';
+export { ArcSettler, type ArcContract } from './ArcSettler.js';
+export { FlumeRelay, type FlumeRelayDeps } from './FlumeRelay.js';
