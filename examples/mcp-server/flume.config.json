@@ -1,0 +1,39 @@
+{
+  "version": "1",
+  "relay": "https://relay.flume.xyz",
+  "ownerWallet": "0xToolOwner",
+  "tools": [
+    {
+      "toolId": "search",
+      "name": "Web Search",
+      "protocol": "x402",
+      "pricing": { "strategy": "static", "staticPriceUsdc": "0.005" },
+      "settlementWallet": "0xSettlement"
+    },
+    {
+      "toolId": "analyze",
+      "name": "Data Analyzer",
+      "protocol": "x402",
+      "pricing": {
+        "strategy": "demand",
+        "staticPriceUsdc": "0.010",
+        "demandCurve": [
+          { "callsPerMinute": 0, "multiplier": 1.0 },
+          { "callsPerMinute": 50, "multiplier": 2.0 }
+        ]
+      },
+      "settlementWallet": "0xSettlement"
+    },
+    {
+      "toolId": "ping",
+      "name": "Ping (Free)",
+      "protocol": "free",
+      "pricing": { "strategy": "static", "staticPriceUsdc": "0" },
+      "settlementWallet": "0xSettlement"
+    }
+  ],
+  "spendingPolicy": {
+    "maxPerCallUsdc": "1.00",
+    "maxDailyPerCallerUsdc": "100.00"
+  }
+}

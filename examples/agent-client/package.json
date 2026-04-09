@@ -1,0 +1,15 @@
+{
+  "name": "@flume/example-agent-client",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/agent.ts"
+  },
+  "dependencies": {
+    "@flume/sdk": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

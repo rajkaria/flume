@@ -1,0 +1,17 @@
+{
+  "name": "@flume/example-http-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/server.ts"
+  },
+  "dependencies": {
+    "@flume/gateway": "workspace:*",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/express": "^5.0.0",
+    "typescript": "^5.7.0"
+  }
+}

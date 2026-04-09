@@ -1,0 +1,25 @@
+{
+  "version": "1",
+  "relay": "https://relay.flume.xyz",
+  "ownerWallet": "0xToolOwner",
+  "tools": [
+    {
+      "toolId": "translate",
+      "name": "Translator",
+      "protocol": "x402",
+      "pricing": { "strategy": "static", "staticPriceUsdc": "0.003" },
+      "settlementWallet": "0xSettlement"
+    },
+    {
+      "toolId": "summarize",
+      "name": "Summarizer",
+      "protocol": "x402",
+      "pricing": { "strategy": "static", "staticPriceUsdc": "0.008" },
+      "settlementWallet": "0xSettlement"
+    }
+  ],
+  "spendingPolicy": {
+    "maxPerCallUsdc": "5.00",
+    "maxDailyPerCallerUsdc": "500.00"
+  }
+}
