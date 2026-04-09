@@ -1,0 +1,18 @@
+{
+  "name": "@flume/contracts",
+  "version": "0.1.0",
+  "description": "Solidity contracts on Arc — FlumeRegistry, EscrowVault, RevenueSplit",
+  "type": "module",
+  "scripts": {
+    "test": "echo 'hardhat test placeholder'",
+    "build": "echo 'hardhat compile placeholder'",
+    "typecheck": "echo 'contracts typecheck placeholder'",
+    "lint": "echo 'lint placeholder'",
+    "clean": "rm -rf artifacts cache typechain-types"
+  },
+  "devDependencies": {
+    "hardhat": "^2.22.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "typescript": "^5.7.0"
+  }
+}

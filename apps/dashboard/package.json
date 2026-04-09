@@ -1,0 +1,13 @@
+{
+  "name": "@flume/dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "description": "app.flume.xyz — Next.js 15 dashboard",
+  "scripts": {
+    "dev": "echo 'next dev placeholder'",
+    "build": "echo 'next build placeholder'",
+    "typecheck": "echo 'typecheck placeholder'",
+    "test": "echo 'test placeholder'",
+    "clean": "rm -rf .next out"
+  }
+}

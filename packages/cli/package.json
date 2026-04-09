@@ -1,0 +1,31 @@
+{
+  "name": "@flume/cli",
+  "version": "0.1.0",
+  "description": "Developer CLI — flume init, flume status, flume audit, flume wallet, flume deploy",
+  "type": "module",
+  "bin": {
+    "flume": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "echo 'lint placeholder'",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "zod": "^3.23.0",
+    "@flume/gateway": "workspace:*",
+    "@flume/arc": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "vitest": "^3.1.0",
+    "@vitest/coverage-v8": "^3.1.0",
+    "@types/node": "^22.0.0"
+  }
+}

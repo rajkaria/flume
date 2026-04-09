@@ -1,0 +1,13 @@
+{
+  "name": "@flume/web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "flume.xyz — landing page (Next.js 15)",
+  "scripts": {
+    "dev": "echo 'next dev placeholder'",
+    "build": "echo 'next build placeholder'",
+    "typecheck": "echo 'typecheck placeholder'",
+    "test": "echo 'test placeholder'",
+    "clean": "rm -rf .next out"
+  }
+}
