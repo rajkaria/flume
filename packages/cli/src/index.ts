@@ -8,9 +8,8 @@ export type {
   WalletCommand,
 } from './types/index.js';
 
-// Command exports — Phase 6+
-// export { initCommand } from './commands/init.js';
-// export { statusCommand } from './commands/status.js';
-// export { auditCommand } from './commands/audit.js';
-// export { walletCommand } from './commands/wallet.js';
-// export { deployCommand } from './commands/deploy.js';
+export { initCommand, type InitOptions } from './commands/init.js';
+export { statusCommand, type StatusOptions } from './commands/status.js';
+export { auditCommand, type AuditOptions } from './commands/audit.js';
+export { walletCommand, type WalletOptions, type WalletResult } from './commands/wallet.js';
+export { deployCheck, type DeployOptions, type DeployCheckResult } from './commands/deploy.js';
